@@ -16,3 +16,12 @@ This example shows how to scrape the content of a WeChat public account article 
    python wechat_public_scraper.py
    ```
    The script will output the article content in Markdown if the request succeeds.
+
+## Testing
+
+For convenience, a helper script `test_wechat_scraper.py` is included to quickly
+verify that the scraper works with your environment variables:
+
+```bash
+python test_wechat_scraper.py
+```
